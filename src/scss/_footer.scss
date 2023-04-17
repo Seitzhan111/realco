@@ -1,0 +1,100 @@
+.footer{
+  &__top{
+    padding: 64px 0;
+  }
+
+  &__row{
+    display: grid;
+    align-items: start;
+    justify-items: center;
+    gap: 32px;
+  }
+  &__menu{
+    display: grid;
+    gap: 16px 0;
+    &-title{
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+  &__list{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  &__list:hover{
+    color: #f58b62;
+  }
+  &__logo{
+    align-items: start;
+  }
+  &__subscribe{
+    &-title{
+      font-weight: 400;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    &-subtitle{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: $grey;
+      margin-bottom: 14px;
+    }
+  }
+  &__input{
+    width: 241px;
+    height: 48px;
+    background-color: $color-white;
+    border: 1px solid #E7E8E3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    padding: 12px 0 12px 14px;
+    font-size: 16px;
+    line-height: 30px;
+    color: $grey;
+    margin-bottom: 16px;
+  }
+  &__form-button{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 13px 28px;
+    display: inline-block;
+  }
+  &__form-text{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: $grey;
+    margin-right: 13px;
+  }
+  &__form-text:last-child{
+    margin: 0;
+  }
+  &__bottom{
+    padding: 25px 0;
+    background-color: #F5F5F2;
+    &-row{
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      justify-items: center;
+      align-items: center;
+    }
+    &-info{
+      display: flex;
+      gap: 11px;
+    }
+    &-text{
+      font-weight: 400;
+      font-size: 14px;
+      color: $grey;
+    }
+    &-social{
+      display: inline-flex;
+      grid-column: 3 / 4;
+      gap: 21px;
+    }
+  }
+
+}

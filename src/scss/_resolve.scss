@@ -1,0 +1,135 @@
+@media (min-width: 1336px) {
+  .customers {
+    &__cards {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+}
+
+@media (min-width: 1385px) {
+  .top {
+     position: relative;
+     &__element-left{
+       display: block;
+       width: 135px;
+       height: 146px;
+       position: absolute;
+       top: 0;
+       left: 0;
+     }
+     &__element-right{
+       display: block;
+       width: 135px;
+       height: 135px;
+       position: absolute;
+       bottom: 0;
+       left: 40%;
+     }
+    &__row {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    &__left{
+      display: grid;
+      grid-row: 1 / 2;
+    }
+    &__img{
+      width: 720px;
+
+      position: relative;
+      top: 0;
+      left: 80px;
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .magazines {
+    &__row {
+      grid-template-columns: 243px 1fr 1fr;
+    }
+    &__items{
+      grid-column: 3 / 4;
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+}
+
+@media (min-width: 882px) {
+  .header{
+    &__row {
+      justify-content: space-between;
+    }
+    &__menu{
+      display: flex;
+    }
+    &__buttons{
+      display: flex;
+      gap: 16px;
+    }
+  }
+  .blog{
+    &__topbox{
+      display: grid;
+      grid-template-columns: 710px 108px;
+      grid-template-rows: 1fr 50px;
+      justify-content: space-between;
+      margin-bottom: 76px;
+      gap: 29px;
+      &-button{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        justify-self: end;
+        padding: 13px 25px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .works{
+    &__cards{
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .comfort{
+    &__row{
+      grid-template-columns: repeat(2, 1fr);
+    }
+    &__img{
+      grid-column: 2 / 3;
+    }
+  }
+  .process{
+    &__row{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .favorite{
+    &__cards{
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .locations{
+    &__cards{
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .blog{
+    &__cards{
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .footer{
+    &__row{
+      grid-template-columns: 200px repeat(3, 1fr) 2fr;
+    }
+  }
+}
+
+@media (min-width: 600px){
+
+}

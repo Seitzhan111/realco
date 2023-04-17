@@ -1,0 +1,27 @@
+.magazines{
+  padding-top: 67px;
+  margin-bottom: 128px;
+  background-color: $color-white;
+
+  &__row{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+  }
+  &__subtitle{
+    flex-basis: 243px;
+    font-size: 18px;
+    line-height: 27px;
+    color: $color-black;
+  }
+
+  &__items{
+    display: grid;
+    gap: 32px;
+  }
+  &__img{
+    width: 120px;
+    height: 28px;
+  }
+}

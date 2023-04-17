@@ -1,0 +1,65 @@
+.blog{
+  padding: 128px 0;
+  background-color: #F5F5F5;
+  &__button{
+    margin-bottom: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  &__topbox{
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  &__title{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  &__subtitle{
+    margin-bottom: 29px;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  &__cards{
+    display: grid;
+
+    gap: 0 32px;
+  }
+  &__card{
+    background-color: $color-white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    &-box{
+      padding: 24px;
+      display: grid;
+      grid-auto-flow: row;
+      grid-template: auto 1fr 1fr minmax(40px, auto) / 1fr;
+    }
+    &-button{
+      background-color: #FAE8E1;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      margin: 0 16px 16px 0;
+    }
+    &-date{
+      font-weight: 400;
+      font-size: 14px;
+      color: $grey;
+    }
+    &-title{
+      font-family: 'RobotoBold', sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 34px;
+      margin-bottom: 9px;
+    }
+    &-description{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: $grey;
+      margin-bottom: 30px;
+    }
+  }
+}

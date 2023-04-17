@@ -1,0 +1,74 @@
+.top{
+  background-color: #F5F5F5;
+  &__element-left{
+    display: none;
+  }
+  &__row{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 57px;
+    position: relative;
+  }
+  &__element-right{
+    display: none;
+  }
+
+  &__left{
+    display: grid;
+    grid-row: 2 / 3;
+
+  }
+
+  &__button{
+    font-size: 14px;
+    color: $color-black;
+    margin-bottom: 20px;
+  }
+  &__title{
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 67px;
+    color: $color-black;
+    margin-bottom: 20px;
+  }
+  &__description{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: $grey;
+    margin-bottom: 20px;
+  }
+  &__form {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 30px;
+    position: relative;
+    &-button {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+
+  &__input{
+    width: 310px;
+    height: 48px;
+    background-color: $color-white;
+    border: 1px solid #E7E8E3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    padding: 9px 0 9px 56px;
+    font-size: 20px;
+    line-height: 30px;
+    color: $grey;
+  }
+  &__icon{
+    position: absolute;
+    font-size: 24px;
+    color: $color-black;
+    top: 12px;
+    left: 16px;
+  }
+}

@@ -1,0 +1,87 @@
+.favorite{
+  padding: 128px 0 160px;
+  background-color: #F5F5F5;
+  position: relative;
+  &__element-right{
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: rotate(-90deg);
+  }
+  &__element-left{
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(-90deg);
+  }
+  &__small-button{
+    display: block;
+    margin: 0 auto 21px;
+  }
+  &__title{
+    text-align: center;
+    margin-bottom: 81px;
+  }
+  &__cards{
+    display: grid;
+    gap: 32px;
+    margin-bottom: 80px;
+  }
+  &__card{
+    background-color: $color-white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    &-box{
+      padding: 24px;
+    }
+    &-title{
+      font-family: 'RobotoBold', sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 34px;
+      color: $color-black;
+      margin-bottom: 3px;
+    }
+    &-price{
+      font-family: 'RobotoBold', sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 27px;
+      margin-bottom: 16px;
+    }
+    &-place{
+      font-weight: 400;
+      font-size: 16px;
+      color: $grey;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 16px;
+      & > span{
+        font-weight: 400;
+        font-size: 16px;
+      }
+    }
+    &-element{
+      display: flex;
+      gap: 24px;
+      align-items: center;
+    }
+    &-text{
+      font-weight: 400;
+      font-size: 16px;
+      color: $grey;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      & > span{
+        font-weight: 400;
+        font-size: 16px;
+      }
+    }
+  }
+}

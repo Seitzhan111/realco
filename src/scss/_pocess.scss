@@ -1,0 +1,51 @@
+.process{
+  margin-bottom: 128px;
+  &__row{
+    display: grid;
+    align-items: center;
+    gap: 0 80px;
+  }
+  &__img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  &__small-button{
+    margin-bottom: 21px;
+  }
+  &__title{
+    margin-bottom: 29px;
+  }
+  &__subtitle{
+    margin-bottom: 29px;
+  }
+  &__cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 67px;
+    margin-bottom: 32px;
+  }
+  &__card{
+    padding: 8px 0;
+    &-icon{
+      display: inline-block;
+      margin-bottom: 16px;
+    }
+    &-title{
+      font-family: 'RobotoBold', sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 28px;
+      color: $color-black;
+      margin-bottom: 18px;
+    }
+    &-description{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: $grey;
+    }
+  }
+  &__button-box{
+    justify-content: flex-start;
+  }
+}

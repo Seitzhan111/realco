@@ -1,0 +1,40 @@
+.header{
+  padding: 16px 0;
+  background-color: $color-white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.08);
+  &__row{
+    display: flex;
+    //justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }
+  &__nav{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  &__menu{
+    display: none;
+    gap: 32px;
+  }
+  &__buttons{
+    display: flex;
+
+    gap: 16px;
+  }
+  &__button{
+    &-white{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 4px;
+    }
+  }
+  &__item > a{
+    display: flex;
+    gap: 4px;
+  }
+  &__item > a:hover{
+    color: $color-orange;
+  }
+}

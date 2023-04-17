@@ -1,0 +1,27 @@
+
+@import "reset";
+
+body{
+  background-color: #fff;
+}
+
+.container{
+  max-width: 1320px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@import "_global";
+@import "_header";
+@import "_top";
+@import "_magazines";
+@import "_works";
+@import "_comfort";
+@import "_pocess";
+@import "_favorite";
+@import "_locations";
+@import "_family";
+@import "_customers";
+@import "_blog";
+@import "_footer";
+@import "_resolve";
